@@ -4,13 +4,21 @@
   
     
     <entry>
-      <title></title>
+      <title>形式语言与自动机期末复习</title>
       <link href="/2023/02/13/FLA%20review/"/>
       <url>/2023/02/13/FLA%20review/</url>
       
         <content type="html"><![CDATA[<h1>形式语言与自动机期末复习</h1><h2 id="Finite-Automata">Finite Automata</h2><h3 id="DFA">DFA</h3><h4 id="形式化定义">形式化定义</h4><p><img src="https://xzljqpicbed.oss-cn-hangzhou.aliyuncs.com/img/202302131105791.png" alt="image-20230213110506694"></p><p><strong>Extended δ</strong>：extending δ to a state and a string</p><h4 id="图表示">图表示</h4><p><img src="https://xzljqpicbed.oss-cn-hangzhou.aliyuncs.com/img/202302131118414.png" alt="image-20230213111857357"></p><h4 id="转移表表示">转移表表示</h4><p><img src="https://xzljqpicbed.oss-cn-hangzhou.aliyuncs.com/img/202302131121550.png" alt="image-20230213112118490"></p><h4 id="符号习惯">符号习惯</h4><p><img src="https://xzljqpicbed.oss-cn-hangzhou.aliyuncs.com/img/202302131123494.png" alt="image-20230213112322453"></p><h4 id="表示语言">表示语言</h4><p><img src="https://xzljqpicbed.oss-cn-hangzhou.aliyuncs.com/img/202302131133796.png" alt="image-20230213113310760"></p><h5 id="证明语言与DFA等价">证明语言与DFA等价</h5><p><img src="https://xzljqpicbed.oss-cn-hangzhou.aliyuncs.com/img/202302131506029.png" alt="image-20230213150622992"></p><p>Part 1: S ⊆ T</p><p>对字符串长度进行归纳</p><p>Part 2: T ⊆ S</p><p>证明逆反命题<br>if w has no 11’s, then w is accepted by DFA → If w is <em><u>not</u></em> accepted by DFA then w <em><u>has</u></em> 11</p><h5 id="正则语言">正则语言</h5><p><strong>表达局限性</strong>：正则语言不可对任意整数计数<br>e.g.L1 = {0^n^1^n^ | n ≥ 1} is A Nonregular Language<br><img src="https://xzljqpicbed.oss-cn-hangzhou.aliyuncs.com/img/202302131617151.png" alt="image-20230213161708114"></p><p>e.g.L2 = {w | w in {(, )}* and w is balanced }</p><h3 id="NFA">NFA</h3><h4 id="形式化定义-2">形式化定义</h4><p><img src="https://xzljqpicbed.oss-cn-hangzhou.aliyuncs.com/img/202302131648340.png" alt="image-20230213164824306"></p><p><img src="https://xzljqpicbed.oss-cn-hangzhou.aliyuncs.com/img/202302131654255.png" alt="image-20230213165442229"></p><h4 id="DFA与NFA等价性">DFA与NFA等价性</h4><p>DFA→NFA: If δD(q, a) = p, let the NFA have δN(q, a) = {p}.</p><p>NFA→DFA：<strong>子集构造法</strong></p><p>证明：（又是对长度进行归纳！）</p><p><img src="https://xzljqpicbed.oss-cn-hangzhou.aliyuncs.com/img/202302131715231.png" alt="image-20230213171510197"></p><h3 id="ε-NFA">ε-NFA</h3><p><img src="https://xzljqpicbed.oss-cn-hangzhou.aliyuncs.com/img/202302131720101.png" alt="image-20230213172007061"></p><p>Closure of States：</p><p><img src="https://xzljqpicbed.oss-cn-hangzhou.aliyuncs.com/img/202302131720350.png" alt="image-20230213172049313"></p><p>Extended Delta：δ(q, w) is the set of states you can reach from q following a path labeled w.</p><h4 id="Equivalence-of-NFA-ε-NFA">Equivalence of NFA, ε-NFA</h4><p>NFA→ε-NFA: 显然<br>ε-NFA→NFA: combining ε–transitions with the next transition on a real input.</p><p><img src="https://xzljqpicbed.oss-cn-hangzhou.aliyuncs.com/img/202302131957462.png" alt="image-20230213195728427"></p><p><img src="https://xzljqpicbed.oss-cn-hangzhou.aliyuncs.com/img/202302131959561.png" alt="image-20230213195918524"></p><p>证明：CL(δ~N~(q0, w)) =   E(q0, w).</p><h2 id="Regular-Expressions">Regular Expressions</h2><h3 id="基本运算">基本运算</h3><p>RE’s use three operations:</p><p><strong>union（并）</strong>：E1+E2 {01,111,10}∪{00, 01} = {01,111,10,00}.</p><p><strong>concatenation（连接）</strong>：E1E2 {01,111,10}{00, 01} =    {0100, 0101, 11100, 11101, 1000, 1001}.</p><p><strong>Kleene star（闭包）</strong>：E* {0,10}* = {ε, 0, 10, 00, 010, 100, 1010,…}</p><p>运算优先级：*&gt;连接&gt;+</p><p>e.g. L((0+10)*(ε+1)) = all strings of 0’s and 1’s without two consecutive 1’s.</p><h3 id="Equivalence-of-RE’s-and-Finite-Automata">Equivalence of RE’s and Finite Automata</h3>]]></content>
       
       
+      
+        <tags>
+            
+            <tag> 课程 </tag>
+            
+            <tag> 学习 </tag>
+            
+        </tags>
       
     </entry>
     
