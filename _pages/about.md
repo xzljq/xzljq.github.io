@@ -10,7 +10,7 @@ redirect_from:
 # About Me
 I am a first-year Master's student at the [School of Computer Science and Technology, Fudan University](https://cs.fudan.edu.cn/), under the supervision of [Prof. Li Shang](https://cscw.fudan.edu.cn/lishang/). 
 
-Previously, I received the B.S. degree with outstanding graduate honors from the [Department of Computer Science and Technology](http://cs.nju.edu.cn/) at [Nanjing University](https://www.nju.edu.cn/) in 2024.
+Previously, I received the B.S. degree from the [Department of Computer Science and Technology](http://cs.nju.edu.cn/) at [Nanjing University](https://www.nju.edu.cn/) in 2024.
 
 
 # Education
