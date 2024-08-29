@@ -8,7 +8,7 @@
 
 # Basic Site Settings
 locale                   : "en-US"
-title                    : "Jingqiao Li/Personal Homepage"
+title                    : "Jingqiao Li's Homepage"
 title_separator          : "-"
 name                     : &name "Jingqiao Li"
 description              : &description "First-year Master’s student at Fudan University"
