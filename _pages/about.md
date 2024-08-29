@@ -1,29 +1,36 @@
 ---
 permalink: /
-title: "Academic Pages is a ready-to-fork GitHub Pages template for academic personal websites"
+title: ""
 author_profile: true
 redirect_from: 
   - /about/
   - /about.html
 ---
-# Personal Information
 
-- **Name:** [Your Name]
-- **Email:** [Your Email]
-- **Education:**
-  - **M.S. in Computer Science and Technology** - Fudan University (2023 - Present)
-  - **B.S. in Computer Science and Technology** - Nanjing University (2019 - 2023)
+# About Me
+I am a first-year Master's student at the [School of Computer Science and Technology, Fudan University](https://cs.fudan.edu.cn/), under the supervision of [Prof. Li Shang](https://cscw.fudan.edu.cn/lishang/). 
 
-- **Research Interests:**
-  - Computer Vision
-  - Embodied Intelligence
+Previously, I received the B.S. degree with outstanding graduate honors from the [Department of Computer Science and Technology](http://cs.nju.edu.cn/) at [Nanjing University](https://www.nju.edu.cn/) in 2024.
 
-- **Awards and Honors:**
-  - National Scholarship
-  - Outstanding Graduate of Nanjing University
 
-- **Publications:**
-  - Currently, I have not published any papers.
+# Education
 
-- **GitHub:** [Your GitHub Link]
-- **LinkedIn:** [Your LinkedIn Link]
+- **Master of Science (M.S.) in Computer Science and Technology**  
+  Fudan University, 2024 - Present
+
+- **Bachelor of Science (B.S.) in Computer Science and Technology**  
+  Nanjing University, 2020 - 2024
+
+# Research Interests
+
+- Computer Vision
+- Embodied AI
+
+# Awards and Honors
+
+- **Outstanding Graduate of Nanjing University** (June 2024)
+- **National Scholarship** (December 2022)
+
+# Publications
+
+- *Currently, I have not published any papers.*
