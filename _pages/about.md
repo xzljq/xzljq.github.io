@@ -33,4 +33,3 @@ Previously, I received the B.S. degree from the [Department of Computer Science 
 
 # Publications
 
-- *Currently, I have not published any papers.*
